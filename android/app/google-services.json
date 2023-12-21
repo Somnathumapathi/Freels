@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442202425169",
+    "project_id": "freels-22b6e",
+    "storage_bucket": "freels-22b6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442202425169:android:66658570e5a7ca909e7570",
+        "android_client_info": {
+          "package_name": "com.example.freels"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA7maiKlGfflHlXmWTG0Xml1XYT6IDS78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
