@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:freels/constants.dart';
+import 'package:freels/controllers/auth_controller.dart';
 import 'package:freels/views/widgets/textinputfield.dart';
 import 'package:neopop/widgets/buttons/neopop_tilted_button/neopop_tilted_button.dart';
 
@@ -50,7 +52,8 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 20),
               NeoPopTiltedButton(
                 isFloating: true,
-                onTapUp: () {},
+                onTapUp: () => authController.loginUser(
+                    _emailController.text, _passwordController.text),
                 decoration: const NeoPopTiltedButtonDecoration(
                   color: Color.fromRGBO(255, 235, 52, 1),
                   plunkColor: Color.fromRGBO(255, 235, 52, 1),
