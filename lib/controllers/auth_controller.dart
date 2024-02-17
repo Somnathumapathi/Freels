@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:freels/constants.dart';
-import 'package:freels/views/screens/auth/home_screen.dart';
+import 'package:freels/views/screens/home_screen.dart';
 import 'package:freels/views/screens/auth/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:freels/models/user_model.dart' as model;
